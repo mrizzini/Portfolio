@@ -1,0 +1,130 @@
+    .absolute {
+            position: fixed;
+            top: 0;
+            left: 0;
+    }
+        
+    #bgimg    {
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+    }
+      
+      @media screen and (max-width: 600px) {
+        body {
+            background-color: black;
+        }
+    }
+      
+      .rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes rubberBand {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  30% {
+  -webkit-transform: scale3d(1.25, 0.75, 1);
+  transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+  -webkit-transform: scale3d(0.75, 1.25, 1);
+  transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.15, 0.85, 1);
+  transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+  -webkit-transform: scale3d(.95, 1.05, 1);
+  transform: scale3d(.95, 1.05, 1);
+  }
+  75% {
+  -webkit-transform: scale3d(1.05, .95, 1);
+  transform: scale3d(1.05, .95, 1);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  }
+  @keyframes rubberBand {
+  0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  30% {
+  -webkit-transform: scale3d(1.25, 0.75, 1);
+  transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+  -webkit-transform: scale3d(0.75, 1.25, 1);
+  transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+  -webkit-transform: scale3d(1.15, 0.85, 1);
+  transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+  -webkit-transform: scale3d(.95, 1.05, 1);
+  transform: scale3d(.95, 1.05, 1);
+  }
+  75% {
+  -webkit-transform: scale3d(1.05, .95, 1);
+  transform: scale3d(1.05, .95, 1);
+  }
+  100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  }
+  } 
+
+      
+    #me {
+          float: right;
+    }
+      
+    .container-fluid {
+          background-color: lightblue;
+    }
+      
+    #contact {
+       margin-bottom: 4em;
+    }
+   
+      
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 70px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+      
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
